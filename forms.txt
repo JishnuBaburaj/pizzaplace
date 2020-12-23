@@ -1,0 +1,26 @@
+Django Forms makes collecting and validating data from a user incredibly simple.
+It has a native form framework that is highly customizable. 
+We'll be creating an online delivery site that focuses on several key features.
+Model forms, which allow you to automatically create a form from an existing model, 
+and form sets, which allow us to easily multiply a form for efficient data entry.
+
+
+django-admin startproject nandiasgarden
+cd nandiasgarden
+
+djangp-admin startapp pizza
+
+added path to home and order in urls.py
+edit settings.py--> installed app add pizza
+
+create views for home and order in pizza/views.py
+
+create templates for the views
+
+
+
+project details
+About(profile)
+order displaying bidding, rate,order confirm, checkout detais
+
+
